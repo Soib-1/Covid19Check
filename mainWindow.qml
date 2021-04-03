@@ -72,7 +72,7 @@ ApplicationWindow {
             height: 24
             anchors.verticalCenter: parent.verticalCenter
             anchors.left: parent.left
-            source: "icon.png"
+            source: "images/icon.png"
             anchors.leftMargin: 0
             fillMode: Image.PreserveAspectFit
         }
@@ -129,7 +129,7 @@ ApplicationWindow {
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
                 anchors.top: parent.top
-                source: todayButton.hovered ? "todayB.png" : "todayW.png"
+                source: todayButton.hovered ? "images/todayB.png" : "images/todayW.png"
                 anchors.topMargin: 10
                 anchors.leftMargin: 5
                 fillMode: Image.PreserveAspectFit
@@ -176,7 +176,7 @@ ApplicationWindow {
                 height: 32
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
-                source: onDateButton.hovered ? "rangeB.png" : "rangeW.png"
+                source: onDateButton.hovered ? "images/rangeB.png" : "images/rangeW.png"
                 anchors.leftMargin: 3
                 fillMode: Image.PreserveAspectFit
             }
@@ -219,7 +219,7 @@ ApplicationWindow {
                 height: 32
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
-                source: onIntervalButton.hovered ? "chartB.png" : "chartW.png"
+                source: onIntervalButton.hovered ? "images/chartB.png" : "images/chartW.png"
                 anchors.leftMargin: 3
                 fillMode: Image.PreserveAspectFit
             }
@@ -262,7 +262,7 @@ ApplicationWindow {
                 height: 32
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
-                source: exitButton.hovered ? "closeB.png" : "closeW.png"
+                source: exitButton.hovered ? "images/closeB.png" : "images/closeW.png"
                 anchors.leftMargin: 3
                 fillMode: Image.PreserveAspectFit
             }
@@ -306,7 +306,7 @@ ApplicationWindow {
                 height: 32
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
-                source: exportButton.hovered ? "saveB.png" : "saveW.png"
+                source: exportButton.hovered ? "images/saveB.png" : "images/saveW.png"
                 fillMode: Image.PreserveAspectFit
                 anchors.leftMargin: 3
             }
@@ -332,6 +332,6 @@ ApplicationWindow {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.9}D{i:25}
+    D{i:0;formeditorZoom:0.9}
 }
 ##^##*/

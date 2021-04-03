@@ -47,7 +47,7 @@ Item {
                 height: 32
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
-                source: "confirmed.png"
+                source: "images/confirmed.png"
                 anchors.leftMargin: 20
                 fillMode: Image.PreserveAspectFit
             }
@@ -87,7 +87,7 @@ Item {
                 height: 32
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
-                source: "deaths.png"
+                source: "images/deaths.png"
                 anchors.leftMargin: 20
                 fillMode: Image.PreserveAspectFit
             }
@@ -126,7 +126,7 @@ Item {
                 height: 32
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
-                source: "recovered.png"
+                source: "images/recovered.png"
                 anchors.leftMargin: 20
                 fillMode: Image.PreserveAspectFit
             }
@@ -165,7 +165,7 @@ Item {
                 height: 32
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
-                source: "sick.png"
+                source: "images/sick.png"
                 anchors.leftMargin: 20
                 fillMode: Image.PreserveAspectFit
             }
@@ -290,7 +290,7 @@ Item {
                 height: 20
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
-                source: refreshButton.hovered ? "refreshB.png" : "refreshW.png"
+                source: refreshButton.hovered ? "images/refreshB.png" : "images/refreshW.png"
                 anchors.leftMargin: 5
                 fillMode: Image.PreserveAspectFit
             }

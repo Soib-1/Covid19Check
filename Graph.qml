@@ -39,7 +39,7 @@ Item {
             width: 640
             height: 480
             anchors.verticalCenter: parent.verticalCenter
-            source: "plot.png"
+            source: "images/plot/plot.png"
             anchors.horizontalCenter: parent.horizontalCenter
             fillMode: Image.PreserveAspectFit
         }
