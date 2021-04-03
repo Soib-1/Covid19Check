@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mainData.qml</file>
+        <file>mainWindow.qml</file>
+        <file>SpecificDate.qml</file>
+        <file>DatePicker.qml</file>
+        <file>Graph.qml</file>
+    </qresource>
+</RCC>
